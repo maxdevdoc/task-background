@@ -1,0 +1,10 @@
+<div class="form-checkbox">
+  <input
+    [type]="field.type"
+    [id]="field.id"
+    class="form-checkbox-input"
+    [checked]="value"
+    (change)="onCheckboxChange($event)"
+    (blur)="onTouched()">
+  <label [for]="field.id" class="form-label">{{ field.label }}</label>
+</div>

@@ -1,0 +1,27 @@
+<div class="form-number-container mb-4">
+  <label [for]="field.id" class="form-label flex items-center space-x-1">
+    <span>{{ field.label }}</span>
+    @if(field.required){
+      <span class="text-red-500 text-lg font-bold">*</span>
+    }
+  </label>
+
+  <input
+    [type]="field.type"
+    [id]="field.id"
+    class="form-control w-full p-2 border rounded focus:outline-none focus:ring-2 transition"
+    [ngClass]="{
+      'border-red-500 focus:ring-red-500': field.required,
+      'border-gray-300 focus:ring-blue-500': !field.required
+    }"
+    [value]="value"
+    (input)="onInputChange($event)"
+    (blur)="onTouched()"
+  />
+
+  @if(control?.invalid && control?.dirty) {
+    <div class="text-red-500 text-sm mt-1">
+      Это поле обязательно для заполнения
+    </div>
+  }
+</div>

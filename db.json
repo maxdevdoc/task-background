@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": "421a60b0-f4f5-4b00-855e-36221f44e019",
+      "form_id": "c8ba069d-7182-4b4b-9265-eb2257b10b46",
+      "label": "Text field",
+      "value": "New data 1",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "535db88b-7811-4cf4-a003-59a0eb3bb56e",
+      "form_id": "c8ba069d-7182-4b4b-9265-eb2257b10b46",
+      "label": "Select field",
+      "type": "select",
+      "choices": [
+        "Male",
+        "Female"
+      ],
+      "required": false,
+      "value": "Male"
+    },
+    {
+      "id": "da345b18-60be-40f5-9602-e54f9a92495b",
+      "form_id": "c8ba069d-7182-4b4b-9265-eb2257b10b46",
+      "label": "Agree to terms",
+      "type": "checkbox",
+      "required": false,
+      "value": true
+    },
+    {
+      "id": "0fbc3be4-879e-4fcf-bb05-186685cd3aa6",
+      "form_id": "c8ba069d-7182-4b4b-9265-eb2257b10b46",
+      "label": "Number value",
+      "type": "number",
+      "value": 123,
+      "required": false
+    },
+    {
+      "id": "ac29e427-7ca0-4d56-824a-a043fd9c4d50",
+      "form_id": "249e3688-b0fc-4310-bf81-338ea32fbc6b",
+      "label": "Text field",
+      "value": "",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "c7a6e84a-edda-4326-ad7b-a6666b5f60be",
+      "form_id": "c8ba069d-7182-4b4b-9265-eb2257b10b46",
+      "label": "Agree to terms",
+      "type": "checkbox",
+      "required": false,
+      "value": true
+    },
+    {
+      "id": "3f6c8424-9e09-4f81-876a-b9e626bea9c8",
+      "form_id": "c8ba069d-7182-4b4b-9265-eb2257b10b46",
+      "label": "Text field",
+      "type": "text",
+      "value": "",
+      "required": false
+    }
+  ]
+}

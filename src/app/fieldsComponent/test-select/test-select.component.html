@@ -1,0 +1,13 @@
+<div class="form-select-container">
+  <label [for]="field.id" class="form-label">{{ field.label }}</label>
+  <select
+    [id]="field.id"
+    class="form-select"
+    [value]="value"
+    (change)="onSelectChange($event)"
+    (blur)="onTouched()">
+    @for(value of field.choices; track value){
+      <option>{{value}}</option>
+    }
+  </select>
+</div>
